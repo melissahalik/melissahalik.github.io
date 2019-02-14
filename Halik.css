@@ -1,0 +1,19 @@
+body{
+    color:#000000;
+    font-family: Arial, Verdana, sans-serif;
+}
+h1 {
+    border-style:dotted;
+    border-color: #000000;
+    text-align: center;
+    
+}
+h4 {
+    color: #000000;
+    font-family: Arial, Verdana, sans-serif;
+}
+img {
+    border-width: 3x;
+    border-style: dotted;
+    border-color: #000000
+}
