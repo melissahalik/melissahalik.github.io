@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Hobby</title>
+<title>Contact Page</title>
 <meta charset="utf-8">
 <style>
 header { background-color: lightblue;       
@@ -16,10 +16,8 @@ nav { float: left;
       width: 150px; }
 main { margin: 0 0px 0 160px;
         padding: 5px 50px 270px 50px;
-        background-image: url(field.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        color: white; }
+        background-color: pink;
+        color: black; }
 footer { font-size: .90em;
          text-align: center;
          color: pink;
@@ -65,18 +63,18 @@ label { display:block;
 }
 legend { font-weight:bold;
 }
-fieldset { width:350px;
+fieldset { width:600px;
 }
 textarea { display:block;
 }
 select { display:block;
 }
-a {text-decoration: none;
+a { text-decoration: none;
 }
 </style>
 <body>
 <div id="container">
-<header role="banner"> 
+<header role="banner">
 <h1>Melissa Halik's Web Presence</h1>
 </header>
 <nav role="navigation">
@@ -94,27 +92,21 @@ a {text-decoration: none;
 </ul>
 </nav>
 <main role="complementary">
-<h2><center>My Hobbies</center></h2>
-<h3><u>Current Hobbies and Activities</u></h3>
-<dl>
-<dt><strong>Puzzles</strong></dt>
-    <dd>During my free time, when I'm not working or in school, I like doing jigsaw puzzles.</dd>
-<dt><strong>Soccer</strong></dt>
-    <dd>One of my other hobbies is playing and watching soccer. During my free time, my cousins and I always end up playing soccer in their back yard. One of my favorite teams for soccer is Real Madrid. During World Cup, my family and I keep track of all the games and make sure that we record each match so that we can watch it later that day. One of the countries that my family roots for during World Cup is Poland, even though Poland hasn't gotten too far in the tournement in the last couple years.</dd>
-<dt><strong>TV/Movies</strong></dt>
-    <dd>During my free time, I like to catch up on TV shows that I have been watching, and I like to watch movies. Currently, my favorite shows to watch right now are Grey's Anatomy and Brooklyn Nine-Nine</strong></dd>
-</dl>
-
-<p>Are you interested in joining Norridge Park District's soccer team? Please fill out the form below!</p>
-<center><form method="post" action="http://webdevbasics.net/scripts/demo.php">
-<label for="name"> Name: </label>
-<input type="text" name="name" id="name" required="name">
-<label for="email">E-Mail: </label>
-<input type="text" name="email" id="email" required="email">
-<label for="comment"> Any Questions or Comments?</label>
-    <textarea rows="3" name="comment" id="comment" columns="50" required="comment"></textarea>
-        <input type="submit" value="Submit"></center>
-</form>
-
+<h2><center>Contact Melissa</center></h2>
+<br>
+<marquee behavior="scroll" direction="left">Please Fill Out the Form! </marquee>
+<br>
+<center><img src="MelissaHalik.jpg" width="150" height="200" alt="picture" id="floatcenter"></center>
+<br>
+<form method="post" action="http://webdevbasics.net/scripts/demo.php">
+    <label for="name"> First Name: </label>
+    <input type="text" name="name" id="name" required="name">
+    <label for="name"> Last Name: </label>
+    <input type="text" name="name" id="name" required="name">
+    <label for="email">E-Mail: </label>
+    <input type="text" name="email" id="email" required="email">
+    <label for="comment"> Any Questions or Comments?</label>
+        <textarea rows="3" name="comment" id="comment" columns="50" required="comment"></textarea>
+            <input type="submit" value="Submit">
 </body>
 </html>
