@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gallery</title>
+<meta charset="utf-8">
+<style>
+header { background-color:#99FFAC;
+         background-position: top;
+         background-repeat: repeat-x;
+         height: 95px;
+         color: black;
+         text-align: center;
+         padding: 7px;
+         border-bottom: 5px solid black; }		 
+nav { float: left;
+      width: 200px; }
+main { margin: 0 0px 0 160px;
+        padding: 5px 60px 270px 50px;
+        background-color:#A7FFE9;
+        color: black; }
+footer { font-size: .90em;
+         text-align: center;
+         color: white;
+         background-color: white;
+         padding-top: 15px;
+        }		 
+h1 { margin-top: 10px;
+     font-size: 3em;
+     text-align: center;
+    }	 
+header t {font-size: 0.50em; }
+     
+ul {list-style-type: none; }
+
+nav left:visited { color: black; }
+
+main b { color: black;
+        background-color: #8BE8B7; }
+                   
+#container { background-color: #99E1FF;
+             color: black;
+             min-width: 960px;
+             font-family: Arial, Verdana, sans-serif;
+}
+form{ font-family:Times;
+        font-size:100%;
+}
+label { display:block;
+        font-weight:bold;
+}
+legend { font-weight:bold;
+}
+fieldset { width:600px;
+}
+textarea { display:block;
+}
+select { display:block;
+}
+a { text-decoration: none;
+}
+{box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 32%;
+  padding: 1px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+<body>
+<div id="container">
+<header role="banner">
+<h1>Zonka Custom Swimbaits</h1>
+</header>
+<nav role="navigation">
+<ul>
+    <strong><li><a href="zonkaindex.html">Home</a></li></strong>
+    <br>
+    <strong><li><a href="zonkagallery.html">Gallery</a></li></strong>
+    <br>
+    <strong><li><a href="zonkaevents.html">Events</a></li></strong>
+    <br>
+    <strong><li><a href="zonkacontact.html">Contact</a></li></strong>
+</ul>
+</nav>
+<main role="complementary">
+<h2><center>Swimbait Gallery</center></h2>
+<center><p>Below are a few examples of the swimbaits that I have created in the past few years:</p></center>
+
+<div class="row">
+   <div class="column">
+    <img src="zonka3.jpeg" alt="swimbait1" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="zonka4.jpeg" alt="swimbait2" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="zonka5.jpg" alt="swimbait3" style="width:85%">
+  </div>
+</div>
+</body>
+</html>
